@@ -9,9 +9,10 @@
   display: flex;
   justify-content: space-between;
   color: #f9faf8;
-  padding: 24px;
+  padding-top: 24px;
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 16px;
 }
 
 .header a {
@@ -41,5 +42,42 @@ li {
 .right-header {
   display: flex;
   align-items: center;
+  font-size: 18px;
+}
+
+.hero {
+  padding-right: 160px;
+  padding-left: 160px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.intro {
+  font-size: 48px;
+  color: #e5e7eb;
+  font-weight: 900;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 32px;
+}
+
+.hero button {
+  width:200px;
+  padding: 8px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: 0;
+}
+
+.hero .description {
+  color: #e5e7eb;
   font-size: 18px;
 }
